@@ -1,0 +1,6 @@
+server:
+  port: 8808 # 端口
+  serInterName: "" # service 包名
+  serRelName: "" # service 实现包名
+  daoInterName: "" # dao 接口包名
+  daoRelName: "" # dao 实现包名

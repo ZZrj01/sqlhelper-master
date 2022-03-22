@@ -1,0 +1,40 @@
+- id: 1647659742
+  type: 0
+  host: 127.0.0.1
+  port: 3306
+  dbname: student
+  username: root
+  password: "12341234"
+  tableprefix: tab_
+  charset: utf8
+  dbpath: ""
+  name: 项目1
+  model:
+    name: model
+    fields:
+    - json
+    - form
+    - gorm
+    path: tunfang
+  service:
+    intername: service
+    relname: impl
+    methods:
+    - add
+    - delete
+    - modify
+    - select
+    - exist
+    params: ""
+    path: ""
+  dao:
+    intername: dao
+    relname: impl
+    methods:
+    - add
+    - delete
+    - modify
+    - select
+    - exist
+    params: ""
+    path: ""
