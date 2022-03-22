@@ -1,0 +1,41 @@
+<!--
+ * @Author: WUMIANHUA
+ * @Date: 2021-10-30 14:15:13
+ * @LastEditTime: 2022-03-22 13:31:48
+ * @Description: 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加载</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            overflow: hidden;
+            -webkit-app-region: no-drag;
+        }
+
+        #img {
+            -webkit-app-region: no-drag;
+            width: 400px;
+            height: 300px;
+        }
+    </style>
+</head>
+<!-- 防止拖拽 -->
+
+<body ondragstart="window.event.returnValue=false;return false;"
+    oncontextmenu="window.event.returnValue=false;return false;" onselectstart="event.returnValue=false;return false;">
+    <img id="img" src="loading.gif" />
+</body>
+
+</html>
